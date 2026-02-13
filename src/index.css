@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: "Manrope", sans-serif;
+  --color-primary: #13ec5b;
+  --color-base-100: #102216;
+  --color-base-200: #162a1d;
+  --color-base-300: #1f3a28;
+  --color-base-content: #ffffff;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: #102216;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+}
